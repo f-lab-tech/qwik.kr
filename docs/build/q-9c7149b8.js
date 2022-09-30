@@ -1,0 +1,1 @@
+import{t as o}from"./q-c0df5510.js";const c=async()=>{const[t,e]=o();confirm(`Are you sure you want to delete "${t.path}"?`)&&e(t.path)},a=async()=>{const[t,e]=o();e.selectedInputPath=t.path};export{c as s_4Ef0A36JSmA,a as s_lWGaPPYlcvs};

@@ -1,0 +1,1 @@
+import{t as n}from"./q-c0df5510.js";const o=()=>{const[e]=n();return e.sideMenuOpen=!e.sideMenuOpen},s=()=>{const[e]=n();return e.sideMenuOpen=!e.sideMenuOpen};export{s as s_80OgQ5lcFr4,o as s_pEMEmtwhXxM};

@@ -1,0 +1,1 @@
+import{F as o}from"./q-bb82297f.js";import{H as t}from"./q-d358e328.js";import{i as r,S as i,u as a}from"./q-c0df5510.js";const n=()=>r(a,{children:[r(t,{}),r("main",{children:r(i,{})}),r(o,{})]});export{n as s_RZvEld56KV0};

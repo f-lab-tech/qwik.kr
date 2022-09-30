@@ -1,0 +1,6 @@
+import{i as t,u as i}from"./q-c0df5510.js";const a={title:"Non-serializable Properties",meta:[],styles:[],links:[]},c={title:"Non-serializable Properties"};function o(n){const e=Object.assign({p:"p",blockquote:"blockquote",strong:"strong",code:"code"},n.components);return t(i,{children:[t(e.p,{children:"Stores must always be serializable, however sometimes you may want to persist a value on a store that can't be serialized. Values like these persist in the browser only when the application is resumed on the client."}),`
+`,t(e.p,{children:"When the application is paused, non-serializable properties are discarded."}),`
+`,t(e.blockquote,{children:[`
+`,t(e.p,{children:[t(e.strong,{children:"Your task"}),": Add a cleanup function in ",t(e.code,{children:"store.cleanup"})," so that the ",t(e.code,{children:"stop"})," button can clear the interval with ",t(e.code,{children:"clearInterval()"}),`.
+For that, add `,t(e.code,{children:"noSerialize"})," import from '@builder.io/qwik' and use ",t(e.code,{children:"noSerialize"})," function to wrap clearInterval function."]}),`
+`]})]})}function l(n={}){const{wrapper:e}=n.components||{};return e?t(e,Object.assign({},n,{children:t(o,n)})):o(n)}export{l as default,c as frontmatter,a as head};

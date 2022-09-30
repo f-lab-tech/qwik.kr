@@ -1,0 +1,1 @@
+import{i as e}from"./q-c0df5510.js";const r=()=>e("svg",{class:"DocSearch-Hit-Select-Icon",width:"20",height:"20",viewBox:"0 0 20 20",children:e("g",{stroke:"currentColor",fill:"none","fill-rule":"evenodd","stroke-linecap":"round","stroke-linejoin":"round",children:[e("path",{d:"M18 3v4c0 2-2 4-4 4H2"}),e("path",{d:"M8 17l-6-6 6-6"})]})});export{r as s_mnN5FJ8qddY};

@@ -1,0 +1,1 @@
+import{i as o}from"./q-c0df5510.js";import{v as e}from"./q-89ee796b.js";import"./q-9cd9b4dc.js";import"./q-d05b940b.js";const c=t=>{var i;return o("video",{...e(t),style:{width:"100%",height:"100%",...(i=t.attributes)==null?void 0:i.style,objectFit:t.fit,objectPosition:t.position,borderRadius:1},src:t.video||"no-src",poster:t.posterImage})};export{c as s_qdcTZflYyoQ};

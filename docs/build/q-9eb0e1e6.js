@@ -1,0 +1,5 @@
+import{i as e,u as s}from"./q-c0df5510.js";const r={title:"Synchronous Event Processing",meta:[],styles:[],links:[]},i={title:"Synchronous Event Processing"};function t(o){const n=Object.assign({p:"p",blockquote:"blockquote",strong:"strong",code:"code"},o.components);return e(s,{children:[e(n.p,{children:"While not a common use case, you may occasionally need to process events synchronously."}),`
+`,e(n.p,{children:"Since Qwik processes asynchronously by default, your code must be explicitly configured for synchronous calls. This example shows how to eagerly load an event handler that processes a synchronous event."}),`
+`,e(n.blockquote,{children:[`
+`,e(n.p,{children:[e(n.strong,{children:"Your task:"})," Convert the ",e(n.code,{children:"onClick$"})," from asynchronous event to synchronous event by using ",e(n.code,{children:"useClientEffect"})," and normal event registration."]}),`
+`]})]})}function l(o={}){const{wrapper:n}=o.components||{};return n?e(n,Object.assign({},o,{children:e(t,o)})):t(o)}export{l as default,i as frontmatter,r as head};

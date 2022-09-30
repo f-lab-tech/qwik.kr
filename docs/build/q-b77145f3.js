@@ -1,0 +1,19 @@
+import{i as e,u as o}from"./q-c0df5510.js";const r=[{text:"Welcome to Qwik!",id:"welcome-to-qwik",level:3},{text:"Qwik Tutorials",id:"qwik-tutorials",level:3}],l={title:"Welcome to Qwik Tutorials",meta:[],styles:[],links:[]},c={title:"Welcome to Qwik Tutorials"};function t(n){const i=Object.assign({h3:"h3",a:"a",span:"span",p:"p",strong:"strong",ul:"ul",li:"li",code:"code"},n.components);return e(o,{children:[e(i.h3,{id:"welcome-to-qwik",children:[e(i.a,{"aria-hidden":"true",tabIndex:"-1",href:"#welcome-to-qwik",children:e(i.span,{className:"icon icon-link"})}),"Welcome to Qwik!"]}),`
+`,e(i.p,{children:["Qwik is a front-end framework for building ",e(i.a,{href:"/docs/concepts/resumable/",children:e(i.strong,{children:"resumable"})})," applications that start-up ",e(i.strong,{children:"instantly"})," on the client. Qwik achieves this by focusing on its philosophy of ",e(i.strong,{children:"downloading and executing only the code that is strictly necessary"})," to perform the user-triggered action. Qwik is a fine-grained lazy-loading framework representing a fundamentally new approach to building web applications."]}),`
+`,e(i.h3,{id:"qwik-tutorials",children:[e(i.a,{"aria-hidden":"true",tabIndex:"-1",href:"#qwik-tutorials",children:e(i.span,{className:"icon icon-link"})}),"Qwik Tutorials"]}),`
+`,e(i.p,{children:"What follows is a set of tutorials that will help you get started with Qwik. Each tutorial focuses on a single topic and contains a hands-on example that requires your participation to make it work."}),`
+`,e(i.p,{children:"The tutorials are broken up into these sections:"}),`
+`,e(i.ul,{children:[`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/introduction/component/",children:"Qwik Introduction"}),": A fast-paced introduction to Qwik where we focus more on building a simple application with server-side pre-rendering and client-side interactivity. This tutorial is designed to give you a feel over how Qwik applications are built rather than focusing on details of individual APIs."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/component/basic/",children:"Components"}),": All about declaring, binding, and composition of components."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/events/basic/",children:"Events"}),": Declaring, binding, and triggering events."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/store/basic/",children:"Stores"}),": Declaring stores, data-binding, reactivity, and serialization."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/props/basic/",children:"Props"}),": A deep dive into declaring and working with props and components and serialization constraints."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/reactivity/template/",children:"Reactivity"}),": A deep dive into how reactivity works and how it can be used to build a more complex application."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/context/basic/",children:"Context"}),": Making data globaly available to your application through context."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/hooks/use-mount/",children:"Hooks"}),": Component life-cycle hooks."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/projection/basic/",children:"Projection"}),": A deep dive into how projection works and how to use it in more complex scenarios."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/style/styles/",children:"Styling"}),": Styling your application with CSS."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/qrl/optimizer/",children:"Optimizer"}),": Understanding the Optimizer constraints."]}),`
+`,e(i.li,{children:[e(i.a,{href:"/tutorial/composing/dollar/",children:"Composing new APIs"}),": Composing new ",e(i.code,{children:"use___()"})," and ",e(i.code,{children:"$"})," APIs for your application."]}),`
+`]})]})}function s(n={}){const{wrapper:i}=n.components||{};return i?e(i,Object.assign({},n,{children:e(t,n)})):t(n)}export{s as default,c as frontmatter,l as head,r as headings};

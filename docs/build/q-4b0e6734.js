@@ -1,0 +1,1 @@
+import{b as o,R as t,a as _}from"./q-c0df5510.js";const e=o(t(()=>_(()=>import("./q-5592b080.js"),["build/q-5592b080.js","build/q-bb82297f.js","build/q-c0df5510.js","build/q-d358e328.js"]),"s_RZvEld56KV0")),l=null;export{e as default,l as onGet};

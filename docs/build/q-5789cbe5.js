@@ -1,0 +1,1 @@
+import{R as i}from"./q-1f53d1e8.js";import{i as o}from"./q-c0df5510.js";import"./q-b18e1de7.js";import"./q-fc065f04.js";import"./q-d281df66.js";const a=({store:r})=>o("div",{class:"detail-logs",children:r.events.map(t=>o(i,{log:t}))});export{a as s_jTsKhAld0Tw};

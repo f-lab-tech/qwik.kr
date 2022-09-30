@@ -1,0 +1,1 @@
+import{i as r}from"./q-c0df5510.js";import{g as s}from"./q-d2a78d48.js";import"./q-8f137f9a.js";const a=({hit:o,attribute:p,tagName:e="span",...n})=>{const y=s(o,`_snippetResult.${p!=null?p:`hierarchy.${o.type}`}.value`)||s(o,p!=null?p:`hierarchy.${o.type}`);return r("span",{...n,dangerouslySetInnerHTML:y})};export{a as s_UyYdc56f0ig};

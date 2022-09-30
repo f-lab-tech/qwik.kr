@@ -1,0 +1,1 @@
+import{p as i}from"./q-89ee796b.js";import{i as e}from"./q-c0df5510.js";import"./q-9cd9b4dc.js";import"./q-d05b940b.js";const a=t=>e("img",{style:{objectFit:t.backgroundSize||"cover",objectPosition:t.backgroundPosition||"center"},alt:t.altText,src:t.imgSrc||t.image,...t.attributes},i()&&t.imgSrc||"default-key");export{a as s_FXvIDBSffO8};

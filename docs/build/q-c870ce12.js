@@ -1,0 +1,8 @@
+import{i as n,u as i}from"./q-c0df5510.js";const o=[{text:"Example",id:"example",level:3}],l={title:"useRef() Hook",meta:[],styles:[],links:[]},d={title:"useRef() Hook"};function r(t){const e=Object.assign({p:"p",code:"code",ol:"ol",li:"li",h3:"h3",a:"a",span:"span"},t.components);return n(i,{children:[n(e.p,{children:["Use ",n(e.code,{children:"useRef()"})," to get a hold of DOM elements created by the component."]}),`
+`,n(e.p,{children:"There are two parts to retrieving a DOM element reference:"}),`
+`,n(e.ol,{children:[`
+`,n(e.li,{children:[n(e.code,{children:"useRef()"})," returns a ",n(e.code,{children:"ref"})," object that contains a ",n(e.code,{children:"current"})," property which will eventually contain the reference."]}),`
+`,n(e.li,{children:[n(e.code,{children:"ref={_ref_variable_}"})," is a prop binding that will set the ",n(e.code,{children:"current"})," property of the ",n(e.code,{children:"ref"})," object to the DOM element."]}),`
+`]}),`
+`,n(e.h3,{id:"example",children:[n(e.a,{"aria-hidden":"true",tabIndex:"-1",href:"#example",children:n(e.span,{className:"icon icon-link"})}),"Example"]}),`
+`,n(e.p,{children:["The example on the right uses ",n(e.code,{children:"useRef()"})," to get a reference to the ",n(e.code,{children:"input"})," element. However, it is missing the ",n(e.code,{children:"ref"})," prop binding. Add the ",n(e.code,{children:"ref"})," prop binding to make the example work as expected"]})]})}function a(t={}){const{wrapper:e}=t.components||{};return e?n(e,Object.assign({},t,{children:n(r,t)})):r(t)}export{a as default,d as frontmatter,l as head,o as headings};

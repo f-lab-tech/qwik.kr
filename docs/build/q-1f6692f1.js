@@ -1,0 +1,1 @@
+import{b as o,R as _,a as e}from"./q-c0df5510.js";const r=o(_(()=>e(()=>import("./q-8f3eefdc.js").then(t=>t.e),["build/q-8f3eefdc.js","build/q-c0df5510.js","build/q-3f9d8143.js","build/q-bb82297f.js","build/q-d358e328.js","build/q-651c46e0.js","build/q-fc065f04.js","build/q-d05b940b.js"]),"s_4AEHtlCrfvY")),l=null;export{r as default,l as onGet};

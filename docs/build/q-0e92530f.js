@@ -1,0 +1,1 @@
+import{b as t,R as o,a as s}from"./q-c0df5510.js";const e=t(o(()=>s(()=>import("./q-7f729714.js"),["build/q-7f729714.js","build/q-c0df5510.js"]),"s_I00W9SG536E")),i={title:"Qwik Presentations, Talks, Videos and Podcasts"};export{e as default,i as head};

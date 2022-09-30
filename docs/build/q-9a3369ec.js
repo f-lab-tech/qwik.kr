@@ -1,0 +1,1 @@
+import{A as r,C as n,L as e}from"./q-5d7d45e6.js";import{i as t}from"./q-c0df5510.js";import"./q-8f137f9a.js";const i=o=>{switch(o.type){case"lvl1":return t(e,{});case"content":return t(n,{});default:return t(r,{})}};export{i as s_OmOFy2W4aT4};

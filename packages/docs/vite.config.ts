@@ -9,6 +9,10 @@ export default defineConfig(() => {
   const routesDir = resolve('src', 'routes');
 
   return {
+    build: {
+      base: '../../',
+      outDir: '../../dist'
+    },
     ssr: {
       // SSR builds for the edge should use the "webworker" target
       // SSG builds should use "node"
@@ -31,7 +35,7 @@ export default defineConfig(() => {
         },
       }),
       partytownVite({
-        dest: resolve('../../docs', '~partytown'),
+        dest: resolve('dist', '~partytown'),
       }),
       examplesData(routesDir),
       playgroundData(routesDir),
