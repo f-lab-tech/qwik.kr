@@ -31,7 +31,7 @@ export default defineConfig(() => {
         },
       }),
       partytownVite({
-        dest: resolve('dist', '~partytown'),
+        dest: resolve('../../docs', '~partytown'),
       }),
       examplesData(routesDir),
       playgroundData(routesDir),
