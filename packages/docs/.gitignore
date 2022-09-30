@@ -1,6 +1,5 @@
 # Build
 build
-dist
 server
 functions/**/*.js
 
